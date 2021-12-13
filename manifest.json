@@ -1,0 +1,20 @@
+{
+	"name": "PANIC",
+	"manifest_version":2,
+	"version":"0.0.1",
+	"description":"hide your tabs when you panic",
+	"browser_action":{
+  	"default_title":"GDG extension"
+  	},
+  "icons":{
+  	"16":"./img/Logo.png",
+  	"48":"./img/Logo.png",
+  	"128":"./img/Logo.png"
+  },
+  "permissions":[
+  	"tabs"
+  ],
+  "background":{
+  	"scripts":["background.js"]
+  }
+}
